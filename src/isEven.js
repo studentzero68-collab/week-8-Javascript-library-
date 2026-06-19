@@ -1,5 +1,5 @@
-/**
- * (TINA) Checks if a number is even.
+/**TINA
+ *  Checks if a number is even.
  * @param {number} number - The number to check.
  * @returns {boolean} True if the number is even.
  */
