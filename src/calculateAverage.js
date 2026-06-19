@@ -9,5 +9,12 @@ function calculateAverage(arr) {
   return sum / arr.length;
 }
 
-const numbers = [10, 20, 30, 40, 50];
-console.log(calculateAverage(numbers)); // Output: 30
+const assert = (condition, message) => {
+  if (!condition) throw new Error(message);
+};
+
+// Test cases
+assert(calculateAverage([10, 20, 30]) === 20, 'Average of [10, 20, 30] should be 20');
+assert(calculateAverage([]) === 0, 'Average of an empty array should be 0');
+assert(calculateAverage([5, 5, 5, 5]) === 5, 'Average of identical numbers should be 5');
+console.log('calculateAverage: all tests passed');

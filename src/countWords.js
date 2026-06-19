@@ -6,5 +6,12 @@ function countWords(str) {
   return trimmedStr.split(/\s+/).length;
 }
 
-// Example usage:
-console.log(countWords("Hello, welcome to JavaScript! ")); // Output: 4
+const assert = (condition, message) => {
+  if (!condition) throw new Error(message);
+};
+
+// Test cases
+assert(countWords('Hello, welcome to JavaScript! ') === 4, 'Should count words in a normal sentence');
+assert(countWords('   ') === 0, 'Should return 0 for a string with only whitespace');
+assert(countWords('One  two   three') === 3, 'Should count words correctly with multiple spaces between them');
+console.log('countWords: all tests passed');
