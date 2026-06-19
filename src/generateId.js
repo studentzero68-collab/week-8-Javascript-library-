@@ -1,5 +1,5 @@
 /**
- * Generates a random ID with a prefix.
+ * (TINA )Generates a random ID with a prefix.
  * @param {string} prefix - The text to start the ID with.
  * @returns {string} A random ID.
  */
