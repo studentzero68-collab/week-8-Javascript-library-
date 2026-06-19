@@ -1,8 +1,10 @@
 //GENIUS MATHEBULA//
+/**
  * Sorts numbers from smallest to biggest.
  * @param {number[]} numbers - The numbers to sort.
  * @returns {number[]} A sorted array.
  */
+
 export function sortNumbers(numbers) {
   if (!Array.isArray(numbers)) return [];
   return [...numbers].sort((a, b) => a - b);
