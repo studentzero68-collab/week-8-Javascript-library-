@@ -1,8 +1,9 @@
-/* Kazadi Mukendi
-- Reverses a string.
-- @param {string} text - The text to reverse.
-- @returns {string} The reversed text.
-*/
+/**
+ * Kazadi Mukendi
+ * Reverses a string.
+ * @param {string} text - The text to reverse.
+ * @returns {string} The reversed text.
+ */
 
 export function reverseString(text) {
   if (typeof text !== "string") return "";

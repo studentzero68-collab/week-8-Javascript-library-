@@ -1,8 +1,9 @@
-/* Kazadi Mukendi
-- Creates a deep copy of an object or array.
-- @param {Object|Array} value - The value to clone.
-- @returns {Object|Array} A copied version of the value.
-*/
+/**
+ * Kazadi Mukendi
+ * Creates a deep copy of an object or array.
+ * @param {Object|Array} value - The value to clone.
+ * @returns {Object|Array} A copied version of the value.
+ */
 
 export function deepClone(value) {
   return JSON.parse(JSON.stringify(value));

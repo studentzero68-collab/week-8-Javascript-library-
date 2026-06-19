@@ -1,9 +1,9 @@
-/* Kazadi Mukedni
-- Checks if a word reads the same forward and backward.
-- @param {string} text - The word to check.
-- @returns {boolean} True if it is a palindrome.
-*/
-
+/**
+ * Kazadi Mukendi
+ * Checks if a word reads the same forward and backward.
+ * @param {string} text - The word to check.
+ * @returns {boolean} True if it is a palindrome.
+ */
 export function isPalindrome(text) {
   if (typeof text !== "string") return false;
 
